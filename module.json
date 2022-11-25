@@ -58,6 +58,13 @@
   ],
   "packs": [
     {
+      "name": "motivation",
+      "label": "Motivationen",
+      "path": "packs/motivation.db",
+      "system": "hexxen-1733",
+      "type": "Item"
+    },
+    {
       "name": "role",
       "label": "Rollen",
       "path": "packs/role.db",
@@ -65,9 +72,23 @@
       "type": "Item"
     },
     {
+      "name": "profession",
+      "label": "Professionen",
+      "path": "packs/profession.db",
+      "system": "hexxen-1733",
+      "type": "Item"
+    },
+    {
       "name": "hunter-ability",
       "label": "Jägerkräfte",
       "path": "packs/power.db",
+      "system": "hexxen-1733",
+      "type": "Item"
+    },
+    {
+      "name": "item",
+      "label": "Gegenstände",
+      "path": "packs/item.db",
       "system": "hexxen-1733",
       "type": "Item"
     }
