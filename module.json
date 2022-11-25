@@ -1,10 +1,10 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "hexxen-zusatz",
+  "title": "HeXXen 1733 Zusatz",
+  "description": "Zusatz Motivationen, Rollen, Proffesionen und Jägerkräfte",
   "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "manifestPlusVersion": "1.0.0",
   "compatibility": {
     "minimum": 10,
     "verified": 10,
@@ -12,14 +12,28 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "TrooperMaXX",
+      "url": "https://github.com/TrooperMaXX/",
+      "discord": "⛧TrooperMaXX⛧#1337"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      {
+      "id": "hexxen-1733",
+      "type": "system",
+      "compatibility": {
+        "minimum": "1.1.1",
+        "verified": "1.1.1"
+      }
+    }
+  ],
+    "requires": [
+      {
+      "id": "compendium-folders",
+      "type": "module"
+    }
+  ]
   },
   "esmodules": [
     "scripts/module.js"
@@ -35,6 +49,27 @@
       "lang": "en",
       "name": "English",
       "path": "languages/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "German",
+      "path": "languages/de.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "role",
+      "label": "Rollen",
+      "path": "packs/role.db",
+      "system": "hexxen-1733",
+      "type": "Item"
+    },
+    {
+      "name": "hunter-ability",
+      "label": "Jägerkräfte",
+      "path": "packs/power.db",
+      "system": "hexxen-1733",
+      "type": "Item"
     }
   ],
   "url": "This is auto replaced",
@@ -45,7 +80,7 @@
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://avatars.githubusercontent.com/u/2643418?v=4"
     }
   ]
 }
