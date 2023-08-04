@@ -1,7 +1,7 @@
 {
   "id": "hexxen-zusatz",
   "title": "HeXXen 1733 Zusatz",
-  "description": "Zusatz Motivationen, Rollen, Proffesionen und Jägerkräfte",
+  "description": "Zusatz Motivationen, Rollen, Proffesionen und Jägerkräfte. GROßER DANK AN APunktX FÜR DEN GROßTEIL DER DATEN!!!",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -14,7 +14,12 @@
     {
       "name": "TrooperMaXX",
       "url": "https://github.com/TrooperMaXX/",
-      "discord": "⛧TrooperMaXX⛧#1337"
+      "discord": "TrooperMaXX"
+    },
+    {
+            "name": "APunktX",
+            "url": "https://github.com/APunktX",
+            "discord": "APunktX"
     }
   ],
   "relationships": {
