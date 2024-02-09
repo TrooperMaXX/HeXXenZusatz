@@ -7,7 +7,7 @@
   "manifestPlusVersion": "1.0.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
+    "verified": 11,
     "maximum": 11
   },
   "authors": [
@@ -29,13 +29,13 @@
       "type": "system",
       "compatibility": {
         "minimum": "1.1.1",
-        "verified": "1.1.3"
+        "verified": "1.1.4"
       }
     }
   ],
     "requires": [
       {
-      "id": "compendium-folders",
+      "id": "hexxen-1733-bdr",
       "type": "module"
     }
   ]
@@ -65,37 +65,62 @@
     {
       "name": "motivation",
       "label": "Motivationen",
-      "path": "packs/motivation.db",
+      "path": "packs/motivation",
       "system": "hexxen-1733",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "role",
       "label": "Rollen",
-      "path": "packs/role.db",
+      "path": "packs/role",
       "system": "hexxen-1733",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "profession",
       "label": "Professionen",
-      "path": "packs/profession.db",
+      "path": "packs/profession",
       "system": "hexxen-1733",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "hunter-ability",
       "label": "Jägerkräfte",
-      "path": "packs/power.db",
+      "path": "packs/power",
       "system": "hexxen-1733",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "item",
       "label": "Gegenstände",
-      "path": "packs/item.db",
+      "path": "packs/item",
       "system": "hexxen-1733",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "url": "This is auto replaced",
