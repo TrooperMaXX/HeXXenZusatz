@@ -29,7 +29,7 @@
       "type": "system",
       "compatibility": {
         "minimum": "1.1.1",
-        "verified": "1.1.4"
+        "verified": "1.4.0"
       }
     }
   ],
@@ -64,7 +64,7 @@
   "packs": [
     {
       "name": "motivation",
-      "label": "Motivationen",
+      "label": "Zusatz Motivationen",
       "path": "packs/motivation",
       "system": "hexxen-1733",
       "type": "Item",
@@ -76,7 +76,7 @@
     },
     {
       "name": "role",
-      "label": "Rollen",
+      "label": "Zusatz Rollen",
       "path": "packs/role",
       "system": "hexxen-1733",
       "type": "Item",
@@ -88,7 +88,7 @@
     },
     {
       "name": "profession",
-      "label": "Professionen",
+      "label": "Zusatz Professionen",
       "path": "packs/profession",
       "system": "hexxen-1733",
       "type": "Item",
@@ -100,7 +100,7 @@
     },
     {
       "name": "hunter-ability",
-      "label": "Jägerkräfte",
+      "label": "Zusatz Jägerkräfte",
       "path": "packs/power",
       "system": "hexxen-1733",
       "type": "Item",
@@ -112,7 +112,7 @@
     },
     {
       "name": "item",
-      "label": "Gegenstände",
+      "label": "Zusatz Gegenstände",
       "path": "packs/item",
       "system": "hexxen-1733",
       "type": "Item",
